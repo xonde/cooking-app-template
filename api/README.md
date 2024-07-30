@@ -32,13 +32,7 @@ The database is a MySQL database running on a docker instance. For this tep you 
 From the `api` directory run:
 
 ```
-docker build --file Dockerfile.db -t cooking-app-db .
-```
-
-This will create your DB docker image. To run the image, run:
-
-```
-docker run --name my-app-db -p 3306:3306 cooking-app-db
+docker compose up
 ```
 
 You should now be able to connect to the MySQL server hosted on the docker container, create your database and all the tables you need.
