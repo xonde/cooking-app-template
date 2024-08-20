@@ -3,6 +3,12 @@
 In a terminal, navigate to the `api` directory and run the following
 
 ```
+python -m venv .
+```
+
+Then run
+
+```
 source bin/activate
 ```
 Once the command has run successfully, in the same terminal, run:
